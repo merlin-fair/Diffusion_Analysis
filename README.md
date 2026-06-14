@@ -19,12 +19,8 @@ This pipline was thought as a tool to get the analysis between groups. For that 
 * You'll need to have a folder in the linux terminal (main folder). Inside of this, you'll have a folder for the control-group and other for the experimental-group.
 * You should move your corresponding subjects on each folder.
 * Each subject should contain the next files to make the script work: 
-*   dwi.bval
-*   dwi.bvec
-*   dwi.jason
-*   dwi.nii.gz
-*   T1w.json
-*   T1w.nii.gz
+  dwi.bval / dwi.bvec / dwi.jason / dwi.nii.gz / T1w.json / T1w.nii.gz
+  
 *   Just an advice, you can make an __original_files_ folder inside of each subject. The original_files will contains the same files just mentioned. This is a good practice because you can access in an easy way to the principal files of your subjects after you get all the new files from the tractography. Something like this:
 *   Subject 1
 *   ______ All the
