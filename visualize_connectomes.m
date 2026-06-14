@@ -1,4 +1,4 @@
-%Este código permite visualizar todos los conectomas tanto del grupo control como del grupo experimental. 
+%Este codigo permite visualizar todos los conectomas tanto del grupo control como del grupo experimental. 
 
 control_folder = '/MATLAB Drive/Linux/Tractography/matriz_labels/control_connectomes';
 filepatern = fullfile(control_folder, '*.csv'); 
